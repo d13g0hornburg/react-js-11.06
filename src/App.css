@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Faz a div ocupar 100% da altura da viewport */
+  background-color: #f0f0f0; /* Cor de fundo opcional */
+  overflow: auto; /* Permite o overflow */
+}
+
+.content {
+  width: 80%; /* A div ocupa 80% da largura da tela */
+  max-width: 1200px; /* Opcional: define um limite máximo para a largura */
+  background-color: #fff; /* Cor de fundo da div */
+  padding: 20px; /* Espaçamento interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  border-radius: 8px; /* Bordas arredondadas opcionais */
+  text-align: center; /* Centraliza o texto dentro da div */
+}
+
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.pokemon-card h2 {
+  margin-top: 0;
+}
+
+.pokemon-card p {
+  margin: 4px 0;
+}
+
+.pokemon-image {
+  width: 100px; /* Ajuste a largura conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block;
+  margin: 0 auto 16px; /* Centraliza a imagem horizontalmente e adiciona espaçamento inferior */
+}
